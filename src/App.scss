@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color:white;
+}
+
+/*
+ * Globals
+ */
+ *{
+  box-sizing: border-box;
+}
+
+@font-face {
+ font-family: 'Brilliant Starlight';
+ src: url('./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.eot');
+ src: url('./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.woff2') format('woff2'),
+      url('./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.woff') format('woff'),
+      // url('./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.ttf')  format('truetype'),
+      // url('./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.svg#Brilliant Starlight') format('svg');
+}
+
+main{
+ scroll-behavior: smooth;
+ // scroll-snap-type:y mandatory;
+ overflow-y: scroll;
+ //scroll-padding-top: 50px;
+}
+// section{
+//  padding-top: 50px;
+//  //scroll-snap-align: start;
+//  h5{
+//    font-family: Brilliant Starlight;
+//    font-weight: 900;
+//    font-size: 5rem;
+//    line-height: 10rem;
+//  }
+// }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

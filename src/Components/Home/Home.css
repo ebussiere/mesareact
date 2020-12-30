@@ -1,0 +1,101 @@
+/*
+* Home
+*/
+#home {
+  background-color: white;
+  width: 100%;
+  height: 50%;
+  animation: colorChange 1s ease;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+#home h5 {
+  font-family: Brilliant Starlight;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 10rem;
+}
+
+#home .logo-img-color {
+  margin-bottom: -216px;
+  opacity: 0;
+  animation: fadeInColor 3s ease;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+#home .text-fade-out-arch {
+  width: 216px;
+  opacity: 0;
+  animation: fadeInOutArch 3s ease;
+  animation-delay: 0s;
+}
+
+#home .text-fade-out-tech {
+  width: 216px;
+  opacity: 0;
+  animation: fadeInOutTech 3s ease;
+  animation-delay: 1s;
+}
+
+#home .logo-img-bw {
+  width: 216px;
+  opacity: 0;
+  animation: fadeInOutBw 3s ease;
+  animation-delay: 3s;
+}
+
+@keyframes fadeInOutArch {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInOutTech {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInOutBw {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInColor {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: black;
+  }
+}

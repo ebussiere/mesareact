@@ -1,0 +1,11 @@
+#services {
+  width: 100%;
+  height: 100%;
+}
+
+#services h5 {
+  font-family: Brilliant Starlight;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 10rem;
+}

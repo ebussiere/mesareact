@@ -1,0 +1,21 @@
+@import url(c:\Users\ebuss\Documents\WebDevelopment\mesareact\src\App.css);
+/*
+ * Globals
+ */
+* {
+  box-sizing: border-box;
+}
+
+/*
+* Navbar
+*/
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  background: #000;
+}

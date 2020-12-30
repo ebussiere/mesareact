@@ -1,13 +1,7 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Brilliant Starlight';
+  src: url("./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.eot");
+  src: url("./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.eot?#iefix") format("embedded-opentype"), 
+  url("./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.woff2") format("woff2"), 
+  url("./fonts/brilliant-starlight/fonts/BrilliantStarlight-Demo.woff") format("woff");
 }
