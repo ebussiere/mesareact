@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <nav id="mesa-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div>
-        <a class="fab fa-instagram" href="https://www.instagram.com/mesacreativeyyc" target="_blank"></a>
-        <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/eleni-christos-37980055/" target="_blank"></a>
+        <a class="fab fa-instagram" href="https://www.instagram.com/mesacreativeyyc">.</a>
+        <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/eleni-christos-37980055/">.</a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
