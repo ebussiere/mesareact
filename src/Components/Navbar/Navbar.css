@@ -8,13 +8,14 @@
 /*
 * Navbar
 */
-nav a {
+nav a,
+nav a:hover {
   margin-left: 10px;
   margin-right: 10px;
   color: white;
   text-decoration: none;
 }
 
-.navbar {
-  background: #000;
+#mesa-navbar {
+  opacity: 1;
 }

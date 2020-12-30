@@ -15,7 +15,7 @@ function Home() {
             <div class="col align-self-center">
               <div class="container d-flex flex-column align-items-center justify-content-center">
                 {/* <h5 class="text-dark">Mesa Creative</h5> */}
-                <img class="logo-img-color" src="../assets/img/Mesa_Creative_Gold on Black_Web.png" alt="mesacllogo" />
+                <img class="logo-img-color" src="../assets/img/Mesa_Creative_Gold_on_clear_Web.png" alt="mesacllogo" />
                 <img class="logo-img-bw" src="../assets/img/Mesa_Creative_Black_Web.png" alt="mesabwlogo" />
               </div>
             </div>

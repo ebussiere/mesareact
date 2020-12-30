@@ -9,7 +9,9 @@
 * Navbar
 */
 nav{
-  a{
+  //background-color: black;
+  a,
+  a:hover{
     margin-left: 10px;
     margin-right: 10px;
     color:white;
@@ -17,7 +19,13 @@ nav{
   }
 }
 .navbar{
-  background: #000;
+  //background-color: black;
+ 
+}
+
+#mesa-navbar{
+  //background-color: black;
+   opacity: 1;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap

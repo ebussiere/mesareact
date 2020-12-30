@@ -4,7 +4,7 @@ import '../../App.css';
 
 function Navbar() {
   return (
-    <nav id="mesa-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav id="mesa-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div>
         <a href="https://www.instagram.com/mesacreativeyyc">
           <i class="fab fa-instagram"></i>
