@@ -1,14 +1,27 @@
 #projects{
-  //  background-color:blue;
    width: 100%;
    height: 100%;
-   h5{
+   .text-arch{
     font-family: Brilliant Starlight;
       font-weight: 900;
       font-size: 5rem;
       line-height: 10rem;
   }
+  img{
+    height: 500px;
   }
+
+  Carousel{
+    background-color:  aqua;
+    CarouselIndicators{
+      background-color:  aqua;
+    }
+    .carousel-control-prev-icon{
+      background-color: aqua;
+    } 
+  }
+}
+
   
   // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap

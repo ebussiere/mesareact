@@ -5,9 +5,9 @@ import '../../App.css';
 
 function Services() {
   return (
-    <section id="services" class="d-flex">
-      <div class="container-fluid bg-danger m-2">
-        <h5 class="text-dark">Services</h5>
+    <section id="services" className="d-flex">
+      <div className="container-fluid bg-danger m-2">
+        <h5 className="text-dark">Services</h5>
       </div>
     </section>
   );

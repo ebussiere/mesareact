@@ -1,8 +1,9 @@
-#about {
+#instagram {
   width: 100%;
+  min-height: 100%;
 }
 
-#about h5 {
+#instagram h5 {
   font-family: Brilliant Starlight;
   font-weight: 900;
   font-size: 5rem;
@@ -10,13 +11,13 @@
   margin: 10px;
 }
 
-#about img {
+#instagram img {
   margin: 10px;
   padding: 0px;
   width: 25%;
   height: auto;
 }
 
-#about img:hover {
+#instagram img:hover {
   opacity: .9;
 }

@@ -1,22 +1,26 @@
 
 import './App.css';
-import Navbar from "./Components/Navbar/Navbar";
+import MesaNav from "./Components/Navbar/MesaNav";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
+import Instagram from "./Components/Instagram/Instagram";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <MesaNav />
       <Home />
-      <About />
+      <Instagram />
+
       <Projects />
-      <Services />
       <Contact />
+
+      <About />
+      <Services />
       <Footer />
     </div>
   );

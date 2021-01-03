@@ -5,18 +5,37 @@ function About() {
   return (
     <section id="about" className="d-flex">
       <div className="container-fluid  m-2">
-        <div className="row h-100 d-flex justify-content-center">
-          <div className="col-sm-5 bg-danger mr-2">
-            <h5 className="text-dark">About</h5>
+        <div className="row d-flex justify-content-center">
+          <h5 className="text-dark text-left">About</h5>
+        </div>
+
+        <div className="row d-flex  justify-content-center align-items-stretch">
+          <div className="col-sm-5 d-flex mr-2">
+            <div className="row d-flex justify-content-around align-items-center">
+              <img src="../assets/img/eleni/smp_standing.jpg" alt="mesacllogo" />
+              <img src="../assets/img/eleni/eleni_bean.jpg" alt="mesacllogo" />
+              <img src="../assets/img/eleni/eleni_bldg_entrance.jpg" alt="mesacllogo" />
+              <img src="../assets/img/eleni/eleni_morainelake.jpg" alt="mesacllogo" />
+              <img src="../assets/img/eleni/eleni_site.jpg" alt="mesacllogo" />
+
+            </div>
           </div>
-          <div className="col-sm-5 bg-primary ml-2">
-            <h5 className="text-dark">About</h5>
-            <p>
-              Many of you may have never heard of an Architectural Technologist, and are curious how this may differ from a licensed Architect. In short, an Architectural Tech is usually responsible for figuring out how to bring the Architects vision to life. This includes detailing things like building envelopes, wall + ceiling assemblies, connections, coordinating MEP sub consultants, and the list goes on.
-              •
-              As a freelance Architectural Tech, I’ve had the pleasure of wearing many hats with multiple clients, from creating millwork shop drawings to designing a full tenant fit up for a commercial space, and just about everything in between. The possibilities are endless.
-              •
-              If your project is under 600 sq.meters (6000 sq.ft) or if it is limited to interior fit up, I can likely assist with your design! If you need 3D views to convey an idea to a client, I’m your gal! Or if you simply need a drafting service to bring your vision to life, I can do that too! Next time you have a challenge to conquer, give me a shout; I’d be happy to help!
+          <div className="col-sm-6 ml-2">
+            {/* <div className="row d-flex justify-content-center">
+              <h5 className="text-dark text-left">About</h5>
+            </div> */}
+
+            <p className="text-left">
+              Hi! Thanks for stopping by.
+              <br />
+              A little bit about me: I am a proud born and raised Calgarian; I come from a Big Fat Greek-Cypriot family; I have been working in the construction industry since 2013 and have loved every minute! I graduated from SAIT in 2013 with a diploma in Architectural Technology, and naturally got a job with an Electrical Engineering firm...wait. What?? Not sure how that happened but almost 8 years later I am still there and love it!
+              </p>
+            <p className="text-left">
+              I recently decided to tap into my Architectural roots and have been flexing my creative muscle doing freelance design work since early 2019. My love of design any passion for architecture evolved from a hobby, to Mēsa Creative in early 2020. I am lucky to have many friends and collaborators in the industry who can lean on me to help bring their projects to life. My diverse construction background makes me an asset to any project. From drafting support to millwork shop drawings, full basement design/permit drawings and commercial space design, I can do just about anything. I dream big, I work hard, and I love a challenge.
+              </p>
+            <p className="text-left">
+              When I’m not working, you can find me volunteering with the CCA’s Women in Construction Committee and on the Condo Board at my building planning and managing more construction projects. I’m a glutton for punishment, what can I say! But honestly I do have fun on occasion. I love to travel, I’m an avid explorer and huge foodie! Not only do I love trying new restaurants around this gorgeous city, I would also make Gordon Ramsey proud in the kitchen.
+
             </p>
           </div>
         </div>

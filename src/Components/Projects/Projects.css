@@ -3,9 +3,25 @@
   height: 100%;
 }
 
-#projects h5 {
+#projects .text-arch {
   font-family: Brilliant Starlight;
   font-weight: 900;
   font-size: 5rem;
   line-height: 10rem;
+}
+
+#projects img {
+  height: 500px;
+}
+
+#projects Carousel {
+  background-color: aqua;
+}
+
+#projects Carousel CarouselIndicators {
+  background-color: aqua;
+}
+
+#projects Carousel .carousel-control-prev-icon {
+  background-color: aqua;
 }

@@ -1,0 +1,27 @@
+/*
+ * Globals
+ */
+* {
+  box-sizing: border-box;
+}
+
+/*
+* Navbar
+*/
+#mesa-navbar {
+  background-color: transparent;
+  opacity: 1;
+  height: 60px;
+}
+
+#mesa-navbar .fab {
+  color: white;
+}
+
+#mesa-navbar a,
+#mesa-navbar a:hover {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}

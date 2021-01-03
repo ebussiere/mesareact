@@ -8,8 +8,14 @@
 /*
 * Navbar
 */
-nav{
-  //background-color: black;
+#mesa-navbar{
+   background-color: transparent;
+   opacity: 1;
+   height: 60px;
+   .fab{
+     color: white;
+   }
+
   a,
   a:hover{
     margin-left: 10px;
@@ -17,15 +23,6 @@ nav{
     color:white;
     text-decoration: none;
   }
-}
-.navbar{
-  //background-color: black;
- 
-}
-
-#mesa-navbar{
-  //background-color: black;
-   opacity: 1;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
