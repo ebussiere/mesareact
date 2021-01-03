@@ -17,10 +17,10 @@ function App() {
       <Instagram />
 
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
 
       <About />
-      <Services />
+      {/* <Services /> */}
       <Footer />
     </div>
   );
